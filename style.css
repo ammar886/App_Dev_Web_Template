@@ -890,12 +890,7 @@
 
 @media (max-width: 1024px) {
 
-    .background #bg1,
-    #bg2,
-    #bg4,
-    #bg5,
-    #bg6,
-    #bg7 {
+    .background #bg1, #bg2, #bg4, #bg5, #bg6, #bg7 {
 
         width: 1500px;
         height: 100%;
@@ -1048,6 +1043,168 @@
     .aboutme {
         left: 880px;
     }
+
+    .foot footer {
+        width: 1500px;
+        height: 225px;
+    }
+
+
+}
+
+@media (max-width: 375px) {
+
+    .background #bg1, #bg2, #bg4, #bg5, #bg6, #bg7 {
+
+        width: 1500px;
+        height: 750px;
+    }
+
+    .background #bg3 {
+        width: 1500px;
+        height: 1440px;
+    }
+
+
+
+    .background #bg8 {
+        width: 830px;
+        left: 670px;
+    }
+
+    .bar {
+        display: inline-block;
+        position: absolute;
+        left: 1420px;
+        top: 35px;
+    }
+
+    .btn {
+
+        position: absolute;
+
+        left: 590px;
+        top: 428px;
+
+        transition: height 2s;
+        transition-timing-function: ease-in-out;
+        transition-duration: 2s;
+
+    }
+
+    .onebar {
+        display: inline-block;
+        background-color: #59437a;
+        width: 102px;
+        height: 6px;
+        position: absolute;
+        left: 590px;
+        top: 239px;
+    }
+
+    .servicesOffered1 {
+
+        position: absolute;
+        display: inline-block;
+        left: 450px;
+        top: 852px;
+        width: 200px;
+
+
+
+    }
+
+
+    .servicesOffered1 li {
+        list-style: square;
+        color: #d4c7e8;
+        line-height: 18px;
+        font-size: 16px;
+        letter-spacing: 1px;
+        margin-top: 4px;
+
+    }
+
+    .servicesOffered2 {
+
+        position: absolute;
+        display: inline-block;
+        left: 800px;
+        top: 852px;
+        width: 200px;
+
+
+    }
+
+    .servicesOffered2 li {
+        list-style: square;
+        color: #d4c7e8;
+        line-height: 20px;
+        font-size: 16px;
+        letter-spacing: 1px;
+
+    }
+
+    .personalInfo {
+        position: absolute;
+        display: inline-block;
+        width: 400px;
+        height: 1000px;
+        left: 1000px;
+        top: 1490px;
+        background-color: #59437a;
+
+
+    }
+
+    .newsletter {
+        top: 4060px;
+        width: 450px;
+        height: 30px;
+    }
+
+    .newsletter h1 {
+        font-weight: bolder;
+        font-size: 24px;
+        text-align: center;
+        font-family: "Montserrat", sans-serif;
+        color: #434992;
+        width: 300px;
+
+
+
+    }
+
+    .newsletter input {
+        margin-top: 5px;
+        padding: 5px;
+        margin-left: 140px;
+        width: 50%;
+        height: 30px;
+        border: 2px solid #434992;
+        border-radius: 7px;
+        font-size: 14px;
+        font-weight: 400;
+        font-family: "Montserrat", sans-serif;
+        color: grey;
+    }
+
+    .newsletter button {
+        margin-left: 145px;
+        margin-top: 7px;
+        height: 70px;
+        width: 50%;
+        font-family: "Montserrat", sans-serif;
+        font-size: 16px;
+        border: 2px solid #434992;
+        border-radius: 7px;
+        color: white;
+        background-color: #59437a;
+
+
+    }
+
+ 
 
     .foot footer {
         width: 1500px;
